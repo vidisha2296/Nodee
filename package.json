@@ -1,0 +1,25 @@
+{
+  "name": "Contacts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"./{,!(node_modules)/**/}*.test.js\"  && mocha --timeout 1000000000",
+    "start":"node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "cloudinary": "^1.32.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "exceljs": "^4.3.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "json2csv": "^5.0.7",
+    "mocha": "^10.0.0",
+    "mongoose": "^6.6.5"
+  }
+}
