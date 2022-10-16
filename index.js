@@ -46,6 +46,9 @@ const PORT = process.env.PORT ||   7000
 //     })
 //     res.status(201).json(cust)
 //     })
+app.get('/',(req,res)=>{
+    res.send('Server Working')
+})
 const routes = require('./routes/customer');
 
 app.use('/api', routes)
